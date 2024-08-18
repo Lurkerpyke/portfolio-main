@@ -76,7 +76,7 @@ export const projects = [
     des: "Antigo portifólio usando html, css e javascript",
     img: "/port-antigo.svg",
     iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
-    link: "/ui.earth.com",
+    link: "https://leandrosoares.netlify.app",
   },
   {
     id: 2,
