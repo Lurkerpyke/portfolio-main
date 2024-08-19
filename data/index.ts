@@ -84,7 +84,7 @@ export const projects = [
     des: "Simplifique seus momentos e armazene-os em uma galeria web pessoal",
     img: "/photoweby.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/git.svg", "/cloudinary.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/Lurkerpyke/photoweby",
   },
   {
     id: 3,
@@ -96,10 +96,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Análise de dados Nashville",
+    des: "Análise de preços de casas em Nashville utilizando SQL, Python, excel, etc.",
+    img: "/SQLNash.svg",
+    iconLists: ["/jupyter.svg", "/pandas.svg", "/PowerBI.svg", "/Excel.svg", "/SQLServer.svg"],
     link: "/ui.apple.com",
   },
 ];
@@ -194,8 +194,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Desenvolvedor front-end",
+    desc: "Controle e gerenciamento de site com foco em segurança e praticidade",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
