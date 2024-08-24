@@ -203,14 +203,17 @@ export const workExperience = [
 
 export const socialMedia = [
   {
+    href: "https://github.com/Lurkerpyke",
     id: 1,
     img: "/git.svg",
   },
+  // {
+  //   href: "https://github.com/Lurkerpyke",
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
+    href: "http://www.linkedin.com/in/leandro-soares-eneterio-35985b306",
     id: 3,
     img: "/link.svg",
   },

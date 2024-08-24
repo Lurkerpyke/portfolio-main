@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Minha <span className="text-purple">abordagem</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planejamento e Expectativas"
           icon={<AceternityIcon order="Fase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Vamos colaborar para mapear os objetivos do seu site, o público-alvo e as funcionalidades principais. Vamos discutir aspectos como a estrutura do site, a navegação e os requisitos de conteúdo."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Desenvolvimento e Atualizações"
           icon={<AceternityIcon order="Fase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Depois de entrarmos em consenso, coloco minha playlist de lofi e mergulho nos códigos. Desde os esboços iniciais até o código finalizado, mantenho você atualizado em cada etapa do processo."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +46,7 @@ const Approach = () => {
         <Card
           title="Lançamento e Resultados"
           icon={<AceternityIcon order="Fase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Vamos começar a mágica! Com base no design aprovado, vou traduzir tudo em código funcional, construindo seu site do zero."
         >
           <CanvasRevealEffect
             animationSpeed={3}
