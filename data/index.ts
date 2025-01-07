@@ -181,7 +181,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Cientista de dados",
-    desc: "modelos estátisticos e criação de modelos de machine learning",
+    desc: "Modelos estátisticos e criação de modelos de machine learning",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },

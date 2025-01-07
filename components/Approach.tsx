@@ -14,18 +14,18 @@ const Approach = () => {
         {/* add des prop */}
         <Card
           title="Planejamento e Expectativas"
-          icon={<AceternityIcon order="Fase 1" />}
+          icon={<AceternityIcon order="Início" />}
           des="Vamos colaborar para mapear os objetivos do seu site, o público-alvo e as funcionalidades principais. Vamos discutir aspectos como a estrutura do site, a navegação e os requisitos de conteúdo."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
           title="Desenvolvimento e Atualizações"
-          icon={<AceternityIcon order="Fase 2" />}
+          icon={<AceternityIcon order="Desenvolvimento" />}
           des="Depois de entrarmos em consenso, coloco minha playlist de lofi e mergulho nos códigos. Desde os esboços iniciais até o código finalizado, mantenho você atualizado em cada etapa do processo."
         >
           <CanvasRevealEffect
@@ -45,8 +45,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Lançamento e Resultados"
-          icon={<AceternityIcon order="Fase 3" />}
-          des="Vamos começar a mágica! Com base no design aprovado, vou traduzir tudo em código funcional, construindo seu site do zero."
+          icon={<AceternityIcon order="Conclusão" />}
+          des="Vamos começar a mágica! Com o código prontinho podemos seguir para o lançamento. Aqui você irá aprender tudo sobre o produto final, como gerenciá-lo e também como colocar tudo no ar. Agora sua presença online é digna de sua qualidade. Estou ancioso para ver sua evolução!"
         >
           <CanvasRevealEffect
             animationSpeed={3}
