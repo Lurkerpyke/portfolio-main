@@ -5,14 +5,12 @@ const Grid = () => {
   return (
     <section id="about">
       <BentoGrid className="w-full py-20">
-        {gridItems.map((item, i) => (
+        {gridItems.map((item) => (
           <BentoGridItem
             id={item.id}
-            key={i}
+            key={item.id} // Use item.id como chave única
             title={item.title}
             description={item.description}
-            // remove icon prop
-            // remove original classname condition
             className={item.className}
             img={item.img}
             imgClassName={item.imgClassName}
